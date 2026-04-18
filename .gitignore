@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Claude
+claude/
+
+# Others
+docs/
+.DS_Store
+.python-version
+data/raw/
