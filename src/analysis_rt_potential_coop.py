@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 
 from src.data import load_main
-from src.fig3_decision_time import compute_latent_stats, BINS
+from src.fig_3_decision_time import compute_latent_stats, BINS
 
 
 def potential_coop_rate(dt_array, is_coop_array):

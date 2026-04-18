@@ -140,8 +140,8 @@ def main():
     plot_sm_panel(axes[2], exp_data)
 
     fig.tight_layout(w_pad=2.0)
-    fig.savefig(OUTPUT_FIGURES / "fig2B_cooperation_rate.pdf", bbox_inches="tight")
-    print(f"Saved to {OUTPUT_FIGURES / 'fig2B_cooperation_rate.pdf'}")
+    fig.savefig(OUTPUT_FIGURES / "fig_2B_cooperation_rate.pdf", bbox_inches="tight")
+    print(f"Saved to {OUTPUT_FIGURES / 'fig_2B_cooperation_rate.pdf'}")
 
 
 if __name__ == "__main__":

@@ -189,10 +189,10 @@ def main():
     rt_data = first_movers[first_movers.condition == "RT"]
     sm_data = exp_data[exp_data.condition == "SM"]
 
-    _plot_observed(sm_data, "SM", "fig3_decision_time_sm.pdf", ylim=60)
-    _plot_observed(sq_data, "SQ", "fig3_decision_time_sq.pdf")
-    _plot_observed(rt_data, "RT", "fig3_decision_time_rt.pdf")
-    _plot_recovered(rt_data, "fig3_decision_time_rt_recovered.pdf")
+    _plot_observed(sm_data, "SM", "fig_3_decision_time_sm.pdf", ylim=60)
+    _plot_observed(sq_data, "SQ", "fig_3_decision_time_sq.pdf")
+    _plot_observed(rt_data, "RT", "fig_3_decision_time_rt.pdf")
+    _plot_recovered(rt_data, "fig_3_decision_time_rt_recovered.pdf")
 
 
 if __name__ == "__main__":

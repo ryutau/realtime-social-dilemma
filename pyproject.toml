@@ -19,5 +19,5 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project.scripts]
-fig2 = "src.fig2_cooperation_rate:main"
-fig2a = "src.fig2A_mutual_cooperation:main"
+fig2 = "src.fig_2B_cooperation_rate:main"
+fig2a = "src.fig_2A_mutual_cooperation:main"

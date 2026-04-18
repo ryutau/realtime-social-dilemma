@@ -170,11 +170,11 @@ def main():
     ax.set_ylabel("Mutual Cooperation Rate")
 
     # Panel labels
-    fig.text(0.01, 1, "A", fontsize=16, fontweight="bold", fontfamily="Arial", va="top")
+    fig.text(0.05, 1, "A", fontsize=16, fontweight="bold", fontfamily="Arial", va="top")
     fig.text(0.61, 1, "B", fontsize=16, fontweight="bold", fontfamily="Arial", va="top")
 
     # fig.tight_layout(w_pad=1.5)
-    out = OUTPUT_FIGURES / "fig_s1_pilot.pdf"
+    out = OUTPUT_FIGURES / "fig_s1_pilot_cooperation_rate_pair_and_individual.pdf"
     fig.savefig(out, bbox_inches="tight")
     print(f"Saved to {out}")
 

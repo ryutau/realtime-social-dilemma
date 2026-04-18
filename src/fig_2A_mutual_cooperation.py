@@ -96,8 +96,8 @@ def main():
     ax.set_yticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
     ax.set_ylabel("Mutual Cooperation Rate")
 
-    fig.savefig(OUTPUT_FIGURES / "fig2A_mutual_cooperation.pdf")
-    print(f"Saved to {OUTPUT_FIGURES / 'fig2A_mutual_cooperation.pdf'}")
+    fig.savefig(OUTPUT_FIGURES / "fig_2A_mutual_cooperation.pdf")
+    print(f"Saved to {OUTPUT_FIGURES / 'fig_2A_mutual_cooperation.pdf'}")
 
 
 if __name__ == "__main__":

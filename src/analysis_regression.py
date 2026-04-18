@@ -20,7 +20,7 @@ from scipy import optimize, stats
 
 from src.data import load_main, load_pilot
 from src.data.utils import OUTPUT_TABLES
-from src.fig3_decision_time import compute_empirical_cdf, recover_latent_cdf, BINS
+from src.fig_3_decision_time import compute_empirical_cdf, recover_latent_cdf, BINS
 
 
 # ---------------------------------------------------------------------------

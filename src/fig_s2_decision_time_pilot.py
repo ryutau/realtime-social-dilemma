@@ -5,7 +5,7 @@ import matplotlib as mpl
 
 from src.data import load_pilot
 from src.data.utils import OUTPUT_FIGURES
-from src.fig3_decision_time import compute_latent_stats
+from src.fig_3_decision_time import compute_latent_stats
 
 # Figure style
 FONT_SIZE = 10
