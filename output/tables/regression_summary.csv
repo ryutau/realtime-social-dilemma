@@ -1,0 +1,9 @@
+experiment,analysis,tag,n,pseudo_r2
+Main,Analysis 1: SM — all participants (Main),sm_all,96,0.14645850611159994
+Main,Analysis 2: SQ — assigned first movers (Main),sq_first,92,0.11006271687363034
+Main,Analysis 3: SQ — 2nd movers after C (Main),sq_second_after_c,63,0.18529860935789255
+Main,Analysis 4: RT — two-step MLE (Main),rt_twostep,190,
+Main,Analysis 5: RT — 2nd movers after C (Main),rt_second_after_c,65,0.3321238150835719
+Pilot,Analysis 1: SM — all participants (Pilot),sm_all,74,0.10328390807432508
+Pilot,Analysis 4: RT — two-step MLE (Pilot),rt_twostep,78,
+Pilot,Analysis 5: RT — 2nd movers after C (Pilot),rt_second_after_c,34,0.7355839813899918
