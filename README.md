@@ -15,9 +15,9 @@ so the `src.data` package resolves correctly.
 ## Experiment data
 
 CSVs from the main and pilot experiments are stored under `data/processed/`.
+Instruction slides used in the experiments are available as PDFs under `material/`.
 
-
-## Aanalysis
+## Analysis
 
 ### Reproduce main-text figures
 ```bash
@@ -62,4 +62,3 @@ python -m src.analysis_regression # see details below
 | S6 | Main SQ 2nd-mover after C | `regression_main_sq_second_after_c.csv` |
 | S7 | Main RT two-step MLE | `regression_main_rt_twostep.csv` |
 | S8 | Main RT 2nd-mover after C | `regression_main_rt_second_after_c.csv` |
-```
