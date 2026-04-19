@@ -49,7 +49,6 @@ python -m src.analysis_sm_vs_rt_first_mover    # SM nominal vs RT voluntary comp
 python -m src.analysis_regression # see details below
 ```
 
-```
 `analysis_regression.py` produces:
 
 | Table | Analysis | Output CSV |
