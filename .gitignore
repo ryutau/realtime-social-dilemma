@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Claude
+.claude/
+
+# Generated analysis products (recompute from the versioned inputs)
+data/intermediate/
+output/
+.cache/
+
+# Others
+.DS_Store
+data/raw/
